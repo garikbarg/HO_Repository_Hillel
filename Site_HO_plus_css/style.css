@@ -1,0 +1,63 @@
+h1 {
+    color: rgb(10, 70, 90);
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-shadow: 2px 2px 5px hsl(199, 94%, 46%);
+    text-align: center;
+  }
+
+IMG.displayed {
+    display: block;
+    margin-left: 100px;
+    margin-right: 40px;
+    border-radius: 15px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+IMG.displayed2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    }
+
+#check1 {
+  padding-left: 40px;
+  font-size: 160%;
+  text-indent:40px;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+}
+a {
+  text-align: center;
+  font-size: 120%;
+  text-shadow: 2px 2px 5px hsl(263, 79%, 44%);
+  }
+h2  {
+  color: rgb(96, 80, 8);
+  font-size: 200%;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  text-shadow: 2px 2px 5px hsl(42, 98%, 35%);
+  text-align: center;
+}
+ul {
+  color: rgb(34, 24, 186);
+  font-size: 120%;
+  font-style: italic;
+  text-align: center;
+}
+a.displayed3
+{
+display: block;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+body{
+
+   background-image: url(images/field.jpeg); no-repeat center top fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    
+}
