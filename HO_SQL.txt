@@ -1,0 +1,7 @@
+1 - SELECT * FROM user_profiles WHERE name LIKE '%am%';
+2 - SELECT (totalCost) FROM `expenses` WHERE carId IN( SELECT id FROM cars WHERE carBrandId IN( SELECT id FROM car_brands WHERE title = 'Audi' ) ) ORDER BY totalCost DESC
+3 - SELECT (id) FROM car_models WHERE carBrandId IN( SELECT id FROM car_brands WHERE title IN('Audi','BMW'))
+4 - SELECT carBrandId, carModelId, COUNT(*) AS user_count FROM cars GROUP BY carModelId, carBrandId ORDER BY user_count DESC
+5 - SELECT name FROM user_profiles JOIN cars ON user_profiles.userId = cars.id
+
+
